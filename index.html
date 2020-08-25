@@ -7,15 +7,17 @@
     </head>
     <body>
         <script>
-            function play(){
-                 var audio = document.getElementById("audio");
-                 audio.play();
-                           }
+            function play() {
+    var audio = document.getElementById('audio1');
+    if (audio.paused) {
+        audio.play();
+    }else{
+        audio.currentTime = 0
+    }
+}
              </script>
-             
-         <audio id="sound1" src="https://raw.githubusercontent.com/wingnuttwiren/Project_G/master/love.mp3" preload="auto"></audio>
-        
-         <button onclick="document.getElementById('sound1').play();">Test Button 1</button>
+             <audio id="audio1" src="https://raw.githubusercontent.com/wingnuttwiren/Project_G/master/love.mp3" preload="auto"></audio>
+             <button onClick="play()">play</button>
          
 
     </body>
