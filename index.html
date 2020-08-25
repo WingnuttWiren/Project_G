@@ -6,6 +6,7 @@
         <meta name="author" content="Nutt">
     </head>
     <body>
+        <audio id="sound1" src="https://raw.githubusercontent.com/wingnuttwiren/Project_G/master/love.mp3" preload="auto"></audio>
         <script>
             function play() {
         var audio = document.getElementById('sound1');
@@ -16,9 +17,9 @@
     }
 }
              </script> 
-         <audio id="sound1" src="https://raw.githubusercontent.com/wingnuttwiren/Project_G/master/love.mp3" preload="auto"></audio>
+         
         
-         <button onclick="document.getElementById('audio').play();">Test Button 1</button>
+         <button onclick=audio.play();>Test Button 1</button>
 
     </body>
     
