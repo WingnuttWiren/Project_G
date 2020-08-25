@@ -7,10 +7,14 @@
     </head>
     <body>
         <script>
-            function play(){
-                 var audio = document.getElementById("audio");
-                 audio.play();
-                           }
+            function play() {
+        var audio = document.getElementById('sound1');
+        if (audio.paused) {
+        audio.play();
+        }else{
+        audio.currentTime = 0
+    }
+}
              </script> 
          <audio id="sound1" src="https://raw.githubusercontent.com/wingnuttwiren/Project_G/master/love.mp3" preload="auto"></audio>
         
