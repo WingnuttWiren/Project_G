@@ -34,3 +34,11 @@ function play_dicc() {
         audio.currentTime = 0
     }
 }
+function play_popWell() {
+    var audio = document.getElementById('popWell');
+    if (audio.paused) {
+        audio.play();
+    }else{
+        audio.currentTime = 0
+    }
+}
