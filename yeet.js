@@ -1,4 +1,4 @@
-
+ <!--Mario Party ear rape sound-->
             function play_eRape() {
     var audio = document.getElementById('eRape');
     if (audio.paused) {
@@ -8,7 +8,7 @@
     }
 }
 
-
+<!--Weird Fanguy Phrase-->
     function play_fanguy() {
     var audio = document.getElementById('fanguy');
     if (audio.paused) {
@@ -17,6 +17,7 @@
         audio.currentTime = 0
     }
 }
+<!--Funny voice crack-->
     function play_dash() {
     var audio = document.getElementById('dash');
     if (audio.paused) {
@@ -25,8 +26,8 @@
         audio.currentTime = 0
     }
 }
-    
-function play_dicc() {
+<!--Sexual joke from Skies unboxing-->   
+    function play_dicc() {
     var audio = document.getElementById('dicc');
     if (audio.paused) {
         audio.play();
@@ -34,8 +35,18 @@ function play_dicc() {
         audio.currentTime = 0
     }
 }
-function play_popWell() {
+<!--Popcorn window well-->
+    function play_popWell() {
     var audio = document.getElementById('popWell');
+    if (audio.paused) {
+        audio.play();
+    }else{
+        audio.currentTime = 0
+    }
+}
+<!--Popcorn -->
+    function play_popcorn() {
+    var audio = document.getElementById('popcorn');
     if (audio.paused) {
         audio.play();
     }else{
