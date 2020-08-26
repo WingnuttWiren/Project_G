@@ -9,7 +9,7 @@
 }
 
 
-function play_fanguy() {
+    function play_fanguy() {
     var audio = document.getElementById('fanguy');
     if (audio.paused) {
         audio.play();
@@ -17,8 +17,17 @@ function play_fanguy() {
         audio.currentTime = 0
     }
 }
-function play_dash() {
+    function play_dash() {
     var audio = document.getElementById('dash');
+    if (audio.paused) {
+        audio.play();
+    }else{
+        audio.currentTime = 0
+    }
+}
+    
+function play_dicc() {
+    var audio = document.getElementById('dicc');
     if (audio.paused) {
         audio.play();
     }else{
