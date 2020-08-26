@@ -44,9 +44,18 @@
         audio.currentTime = 0
     }
 }
-<!--Popcorn -->
+<!--Popcorn-->
     function play_popcorn() {
     var audio = document.getElementById('popcorn');
+    if (audio.paused) {
+        audio.play();
+    }else{
+        audio.currentTime = 0
+    }
+}
+<!--Clip Luis wanted-->
+    function play_luis() {
+    var audio = document.getElementById('luis');
     if (audio.paused) {
         audio.play();
     }else{
