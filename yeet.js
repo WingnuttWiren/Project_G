@@ -17,8 +17,8 @@ function play_fanguy() {
         audio.currentTime = 0
     }
 }
-function play_dashes() {
-    var audio = document.getElementById('fanguy');
+function play_dash() {
+    var audio = document.getElementById('dash');
     if (audio.paused) {
         audio.play();
     }else{
