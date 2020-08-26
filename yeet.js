@@ -1,9 +1,20 @@
 
             function play() {
-    var audio = document.getElementById('audio1');
+    var audio = document.getElementById('eRape');
     if (audio.paused) {
         audio.play();
     }else{
         audio.currentTime = 0
     }
 }
+
+
+function play() {
+    var audio = document.getElementById('fanguy');
+    if (audio.paused) {
+        audio.play();
+    }else{
+        audio.currentTime = 0
+    }
+}
+
