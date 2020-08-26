@@ -1,5 +1,5 @@
 
-            function play() {
+            function play_eRape() {
     var audio = document.getElementById('eRape');
     if (audio.paused) {
         audio.play();
@@ -9,7 +9,7 @@
 }
 
 
-function play() {
+function play_fanguy() {
     var audio = document.getElementById('fanguy');
     if (audio.paused) {
         audio.play();
