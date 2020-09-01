@@ -62,3 +62,12 @@
         audio.currentTime = 0
     }
 }
+<!--Keep it real quote-->
+    function play_lindis() {
+    var audio = document.getElementById('lindis');
+    if (audio.paused) {
+        audio.play();
+    }else{
+        audio.currentTime = 0
+    }
+}
