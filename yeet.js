@@ -71,3 +71,57 @@
         audio.currentTime = 0
     }
 }
+<!--Gripe quote-->
+    function play_gripe() {
+    var audio = document.getElementById('gripe');
+    if (audio.paused) {
+        audio.play();
+    }else{
+        audio.currentTime = 0
+    }
+}
+<!--Really quote-->
+    function play_really() {
+    var audio = document.getElementById('really');
+    if (audio.paused) {
+        audio.play();
+    }else{
+        audio.currentTime = 0
+    }
+}
+<!--Technology quote-->
+    function play_tech() {
+    var audio = document.getElementById('tech');
+    if (audio.paused) {
+        audio.play();
+    }else{
+        audio.currentTime = 0
+    }
+}
+<!--Not Cool quote-->
+    function play_notcool() {
+    var audio = document.getElementById('notcool');
+    if (audio.paused) {
+        audio.play();
+    }else{
+        audio.currentTime = 0
+    }
+}
+<!--This will be my station quote-->
+    function play_myStation() {
+    var audio = document.getElementById('myStation');
+    if (audio.paused) {
+        audio.play();
+    }else{
+        audio.currentTime = 0
+    }
+}
+<!--not everyone has 4g quote-->
+    function play_4g() {
+    var audio = document.getElementById('4g');
+    if (audio.paused) {
+        audio.play();
+    }else{
+        audio.currentTime = 0
+    }
+}
