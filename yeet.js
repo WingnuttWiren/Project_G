@@ -125,7 +125,6 @@
         audio.currentTime = 0
     }
 }
-}
 <!--Afromentioned mis-speak-->
     function play_afro() {
     var audio = document.getElementById('afro');
