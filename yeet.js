@@ -134,3 +134,12 @@
         audio.currentTime = 0
     }
 }
+<!--Gamecube remote-->
+    function play_gcRemote() {
+    var audio = document.getElementById('gcRemote');
+    if (audio.paused) {
+        audio.play();
+    }else{
+        audio.currentTime = 0
+    }
+}
